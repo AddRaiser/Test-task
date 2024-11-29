@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "stylelint-config-recommended",
+        "stylelint-config-standard",
+        "stylelint-config-standard-scss",
+        "stylelint-config-idiomatic-order",
+        "stylelint-config-standard-vue/scss"
+    ],
+    "plugins": [
+        "stylelint-order"
+    ],
+    "ignoreFiles": [
+        "src/app/style/normalize.scss"
+    ],
+    "rules": {
+    }
+}
